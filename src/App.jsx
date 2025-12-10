@@ -128,7 +128,7 @@ export default function App() {
               rel="noopener noreferrer"
             >
               <img
-                src="/linkedin.webp" // ganti sesuai lokasi file
+                src="public/linkedin.webp" // ganti sesuai lokasi file
                 alt="LinkedIn"
                 className="linkedin-icon"
               />
@@ -138,7 +138,7 @@ export default function App() {
         </div>
 
         <div className="hero-right">
-          <img src="/me.jpg" alt="Profile" className="hero-img" />
+          <img src="me.jpg" alt="Profile" className="hero-img" />
         </div>
       </section>
 
@@ -147,7 +147,7 @@ export default function App() {
           {/* Foto */}
           <div className="about-photo fade-element">
             <img
-              src="/about.jpg" // path ke gambar
+              src="public/about.jpg" // path ke gambar
               alt="About Me"
               className="photo"
             />
@@ -177,7 +177,7 @@ export default function App() {
                 <div className="skills-columns">
                   <ul className="skills-list">
                     <li>
-                      <img src="/html.png" alt="HTML" className="skill-icon" />
+                      <img src="html.png" alt="HTML" className="skill-icon" />
                       HTML
                     </li>
                     <li>
@@ -220,7 +220,7 @@ export default function App() {
                 <ul className="experience-list">
                   <li className="experience-item">
                     <img
-                      src="/nsslogo.png"
+                      src="public/nsslogo.png"
                       alt="Perusahaan 1"
                       className="company-icon"
                     />
@@ -231,7 +231,7 @@ export default function App() {
                   </li>
                   <li className="experience-item">
                     <img
-                      src="/cbn.png"
+                      src="public/cbn.png"
                       alt="Perusahaan 2"
                       className="company-icon"
                     />
@@ -249,13 +249,13 @@ export default function App() {
                 <div className="certificates-horizontal">
                   <div className="cert-item">
                     <a
-                      href="/Sertifikat kelulusan dicoding.pdf"
+                      href="Sertifikat kelulusan dicoding.pdf"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="cert-link"
                     >
                       <img
-                        src="/dicoding.jpeg"
+                        src="dicoding.jpeg"
                         alt="PDF Icon"
                         className="pdf-icon"
                       />{" "}
@@ -270,7 +270,7 @@ export default function App() {
                       className="cert-link"
                     >
                       <img
-                        src="/growia.png"
+                        src="public/growia.png"
                         alt="PDF Icon"
                         className="pdf-icon"
                       />
@@ -314,19 +314,19 @@ export default function App() {
             {
               title: "Portfolio Website",
               tech: "React + Tailwind",
-              img: "/profile (1).png",
+              img: "public/profile (1).png",
               desc: "Personal portfolio website with modern animations and responsive design.",
             },
             {
               title: "Comingsoon",
               tech: "HTML, CSS, JS",
-              img: "/comingsoon.png",
+              img: "public/comingsoon.png",
               desc: "High converting landing page with smooth scrolling and animations.",
             },
             {
               title: "Comingsoon",
               tech: "React + API",
-              img: "/comingsoon.png",
+              img: "public/comingsoon.png",
               desc: "Interactive dashboard with dynamic charts and real-time API data.",
             },
           ].map((project, index) => (
