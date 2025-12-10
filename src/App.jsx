@@ -128,7 +128,7 @@ export default function App() {
               rel="noopener noreferrer"
             >
               <img
-                src="public/linkedin.webp" // ganti sesuai lokasi file
+                src="linkedin.webp" // ganti sesuai lokasi file
                 alt="LinkedIn"
                 className="linkedin-icon"
               />
@@ -147,7 +147,7 @@ export default function App() {
           {/* Foto */}
           <div className="about-photo fade-element">
             <img
-              src="public/about.jpg" // path ke gambar
+              src="about.jpg" // path ke gambar
               alt="About Me"
               className="photo"
             />
@@ -220,7 +220,7 @@ export default function App() {
                 <ul className="experience-list">
                   <li className="experience-item">
                     <img
-                      src="public/nsslogo.png"
+                      src="nsslogo.png"
                       alt="Perusahaan 1"
                       className="company-icon"
                     />
@@ -231,7 +231,7 @@ export default function App() {
                   </li>
                   <li className="experience-item">
                     <img
-                      src="public/cbn.png"
+                      src="cbn.png"
                       alt="Perusahaan 2"
                       className="company-icon"
                     />
@@ -264,13 +264,13 @@ export default function App() {
                   </div>
                   <div className="cert-item">
                     <a
-                      href="/growiacert.pdf"
+                      href="growiacert.pdf"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="cert-link"
                     >
                       <img
-                        src="public/growia.png"
+                        src="growia.png"
                         alt="PDF Icon"
                         className="pdf-icon"
                       />
@@ -314,19 +314,19 @@ export default function App() {
             {
               title: "Portfolio Website",
               tech: "React + Tailwind",
-              img: "public/profile (1).png",
+              img: "profile (1).png",
               desc: "Personal portfolio website with modern animations and responsive design.",
             },
             {
               title: "Comingsoon",
               tech: "HTML, CSS, JS",
-              img: "public/comingsoon.png",
+              img: "comingsoon.png",
               desc: "High converting landing page with smooth scrolling and animations.",
             },
             {
               title: "Comingsoon",
               tech: "React + API",
-              img: "public/comingsoon.png",
+              img: "comingsoon.png",
               desc: "Interactive dashboard with dynamic charts and real-time API data.",
             },
           ].map((project, index) => (
