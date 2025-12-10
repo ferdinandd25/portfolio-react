@@ -128,7 +128,7 @@ export default function App() {
               rel="noopener noreferrer"
             >
               <img
-                src="linkedin.webp" // ganti sesuai lokasi file
+                src="./linkedin.webp" // ganti sesuai lokasi file
                 alt="LinkedIn"
                 className="linkedin-icon"
               />
@@ -138,7 +138,7 @@ export default function App() {
         </div>
 
         <div className="hero-right">
-          <img src="me.jpg" alt="Profile" className="hero-img" />
+          <img src="./me.jpg" alt="Profile" className="hero-img" />
         </div>
       </section>
 
@@ -147,7 +147,7 @@ export default function App() {
           {/* Foto */}
           <div className="about-photo fade-element">
             <img
-              src="about.jpg" // path ke gambar
+              src="./about.jpg" // path ke gambar
               alt="About Me"
               className="photo"
             />
@@ -270,7 +270,7 @@ export default function App() {
                       className="cert-link"
                     >
                       <img
-                        src="growia.png"
+                        src="./growia.png"
                         alt="PDF Icon"
                         className="pdf-icon"
                       />
